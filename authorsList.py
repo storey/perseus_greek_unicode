@@ -1547,15 +1547,15 @@ moschus.addWork(utils.TextSpec("Fragmenta", "2008.01.0646", 1, "%3Apoem%3D", {
     "multi": False,
     "suffixes": range(4, 7+1)
 }))
-# Included with Moschus but no longer thought to be his
-# moschus.addWork(utils.TextSpec("Epitaphius Bios", "2008.01.0647", 1, "%3Apoem%3D", {
-#     "multi": False,
-#     "suffixes": [3]
-# }))
-# moschus.addWork(utils.TextSpec("Megara", "2008.01.0645", 1, "%3Apoem%3D", {
-#     "multi": False,
-#     "suffixes": [4]
-# }))
+# Included with Moschus but possibly not his works
+moschus.addWork(utils.TextSpec("Epitaphius Bios", "2008.01.0647", 1, "%3Apoem%3D", {
+    "multi": False,
+    "suffixes": [3]
+}))
+moschus.addWork(utils.TextSpec("Megara", "2008.01.0645", 1, "%3Apoem%3D", {
+    "multi": False,
+    "suffixes": [4]
+}))
 authors.append(moschus)
 
 bible = utils.Author("Bible")
