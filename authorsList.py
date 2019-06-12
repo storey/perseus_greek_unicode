@@ -1535,10 +1535,6 @@ lysias.addWork(utils.TextSpec("Speeches", "1999.01.0153", 1, "%3Aspeech%3D", {
 authors.append(lysias)
 
 moschus = utils.Author("Moschus")
-moschus.addWork(utils.TextSpec("Epitaphius Bios", "2008.01.0647", 1, "%3Apoem%3D", {
-    "multi": False,
-    "suffixes": [3]
-}))
 moschus.addWork(utils.TextSpec("Eros Drapeta", "2008.01.0648", 1, "%3Apoem%3D", {
     "multi": False,
     "suffixes": [1]
@@ -1551,10 +1547,15 @@ moschus.addWork(utils.TextSpec("Fragmenta", "2008.01.0646", 1, "%3Apoem%3D", {
     "multi": False,
     "suffixes": range(4, 7+1)
 }))
-moschus.addWork(utils.TextSpec("Megara", "2008.01.0645", 1, "%3Apoem%3D", {
-    "multi": False,
-    "suffixes": [4]
-}))
+# Included with Moschus but no longer thought to be his
+# moschus.addWork(utils.TextSpec("Epitaphius Bios", "2008.01.0647", 1, "%3Apoem%3D", {
+#     "multi": False,
+#     "suffixes": [3]
+# }))
+# moschus.addWork(utils.TextSpec("Megara", "2008.01.0645", 1, "%3Apoem%3D", {
+#     "multi": False,
+#     "suffixes": [4]
+# }))
 authors.append(moschus)
 
 bible = utils.Author("Bible")
